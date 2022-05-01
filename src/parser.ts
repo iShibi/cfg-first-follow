@@ -71,4 +71,8 @@ export class Parser {
 		}
 		return firstSet;
 	}
+
+	follow(symbol: TerminalSymbol | NonTerminalSymbol) {
+		// TODO
+	}
 }
