@@ -1,6 +1,6 @@
 {
 	"name": "cfg-first-follow",
-	"version": "0.0.1-dev",
+	"version": "0.1.0",
 	"description": "Calculate FIRST and FOLLOW set of a Context Free Grammar symbol",
 	"author": {
 		"name": "Shubham Parihar",

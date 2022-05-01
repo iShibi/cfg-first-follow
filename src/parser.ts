@@ -47,7 +47,7 @@ export class Parser {
 			while (flag) {
 				const startSymbol = production[pointer];
 				// this should never be true for the first iteration of the while loop
-				if (!startSymbol) {
+				if (typeof startSymbol === 'undefined') {
 					// current production is reducible to an epsilon production
 					firstSet.add(null);
 					flag = false;
